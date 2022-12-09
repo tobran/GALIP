@@ -9,6 +9,11 @@
 
 Official Pytorch implementation for our paper GALIP: Generative Adversarial CLIPs for Text-to-Image Synthesis
 
+
+<p align="center">
+<b>Generate vivid Images for <i>Any</i> (Chinese) text</b>
+</p>
+
 ---
 ## Requirements
 - python 3.9
