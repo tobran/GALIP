@@ -15,7 +15,7 @@ Official Pytorch implementation for our paper GALIP: Generative Adversarial CLIP
 </p>
 
 ![teaser](results.jpg)
----
+
 ## Requirements
 - python 3.9
 - Pytorch 1.9
