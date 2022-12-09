@@ -11,7 +11,7 @@ Official Pytorch implementation for our paper GALIP: Generative Adversarial CLIP
 
 
 <p align="center">
-<b>Generate vivid Images for <i>Any</i> (Chinese) text</b>
+<b>Generated Images
 </p>
 
 ---
