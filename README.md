@@ -21,6 +21,7 @@ Official Pytorch implementation for our paper GALIP: Generative Adversarial CLIP
 - Pytorch 1.9
 - At least 1x24GB 3090 GPU (for training)
 - Only CPU (for sampling) 
+
 GALIP is a small and fast generative model which can generate multiple pictures in one second even on the CPU.
 ## Installation
 
