@@ -5,7 +5,7 @@
 ![Last Commit](https://img.shields.io/github/last-commit/tobran/GALIP)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-blue.svg)]((https://github.com/tobran/GALIP/graphs/commit-activity))
 ![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)
-# GALIP
+# GALIP (Coming Soon)
 
 Official Pytorch implementation for our paper GALIP: Generative Adversarial CLIPs for Text-to-Image Synthesis
 
