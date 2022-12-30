@@ -1,0 +1,51 @@
+CONFIG_NAME: 'coco'
+
+dataset_name: 'coco'
+data_dir: './data/text2img/coco'
+base64: False
+
+gpu_id: 0
+num_workers: 1
+imsize: 256
+z_dim: 100
+cond_dim: 512
+manual_seed: 100
+cuda: True
+
+clip4evl: {'src':"clip", 'type':'RN50'}
+clip4trn: {'src':"clip", 'type':'ViT-B/32'} 
+clip4text: {'src':"clip", 'type':'ViT-B/32'} 
+
+BLIP_pth: './data/BLIP/model_base.pth'
+ViT_feat: 'local'
+clip_img_enc: True
+
+
+stamp: 'normal'
+state_epoch: 0
+max_epoch: 3005
+freeze_epoch: 2
+batch_size: 16
+gpu_id: 0
+nf: 64
+ch_size: 3
+
+scaler_min: 64
+growth_interval: 2000
+lr_g: 0.0001
+lr_d: 0.0004
+
+sim_w: 4.0
+sim_v: 4.0
+sim_c: 2.0
+diff_w: 40.0
+
+gen_interval: 1 #1
+tb_img_interval: 10000
+test_interval: 5 #5
+save_interval: 5
+save_step: 100
+
+sample_times: 1
+npz_path: './data/FID/coco_val256_g0.npz'
+log_dir: 'new'
