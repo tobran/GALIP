@@ -1,0 +1,14 @@
+tqdm
+numpy
+torch==1.11.0
+torchvision
+easydict
+pandas
+jupyter
+pyyaml
+ipykernel
+scipy
+tensorboard
+ftfy
+regex
+tqdm

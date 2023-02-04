@@ -1,6 +1,6 @@
-CONFIG_NAME: 'coco'
-dataset_name: 'coco'
-data_dir: '../data/coco'
+CONFIG_NAME: 'bird'
+dataset_name: 'birds'
+data_dir: '../data/birds'
 
 gpu_id: 0
 imsize: 256
@@ -15,7 +15,7 @@ clip4text: {'src':"clip", 'type':'ViT-B/32'}
 
 stamp: 'normal'
 state_epoch: 0
-max_epoch: 3005
+max_epoch: 1502
 batch_size: 16
 gpu_id: 0
 nf: 64
@@ -27,10 +27,10 @@ lr_g: 0.0001
 lr_d: 0.0004
 sim_w: 4.0
 
-gen_interval: 1 #1
-test_interval: 5 #5
-save_interval: 5
+gen_interval: 5 #1
+test_interval: 20 #5
+save_interval: 20
 
-sample_times: 1
-npz_path: '../data/coco/npz/coco_val256_FIDK0.npz'
+sample_times: 12
+npz_path: '../data/birds/npz/bird_val256_FIDK0.npz'
 log_dir: 'new'
