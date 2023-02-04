@@ -75,10 +75,10 @@ set **pretrained_model** in test.sh
 The released model achieves better performance than the paper version.
 
 
-| Model            | COCO-FID↓ | COCO-CS↑   |
-| ---              | ---       | ---        |
-| GALIP(paper)     | 5.85      | 0.3338     |
-| GALIP(released)  | **5.01**  | **0.3379** |
+| Model            | COCO-FID↓ | COCO-CS↑   | CC12M-ZFID↓ |
+| ---              | ---       | ---        | ---       |
+| GALIP(paper)     | 5.85      | 0.3338     | 12.54      |
+| GALIP(released)  | **5.01**  | **0.3379** | **12.54**  |
 
 
 ## Sampling
