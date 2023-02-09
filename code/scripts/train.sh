@@ -13,8 +13,7 @@ num_workers=8
 master_port=11266
 stamp=gpu${nodes}MP_${mixed_precision}
 
-python=/home/mmc_mingtao/anaconda3/envs/dfgan/bin/python3.9
-CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 $python -m torch.distributed.launch --nproc_per_node=$nodes --master_port=$master_port src/train.py \
+CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python -m torch.distributed.launch --nproc_per_node=$nodes --master_port=$master_port src/train.py \
                     --stamp $stamp \
                     --cfg $cfg \
                     --mixed_precision $mixed_precision \

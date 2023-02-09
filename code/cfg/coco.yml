@@ -2,7 +2,6 @@ CONFIG_NAME: 'coco'
 dataset_name: 'coco'
 data_dir: '../data/coco'
 
-gpu_id: 0
 imsize: 256
 z_dim: 100
 cond_dim: 512
