@@ -7,7 +7,9 @@
 ![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)
 
 
-<img src="logo.jpeg" width="400px"/>
+<p align="center">
+    <img src="logo.jpeg" width="500px"/>
+</p>
 
 # A high-quality, fast, and efficient text-to-image model for large-scale training
 
