@@ -2,9 +2,10 @@
 [![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://github.com/tobran/GALIP/blob/master/LICENSE.md)
 ![Python 3.9](https://img.shields.io/badge/python-3.9-green.svg)
 ![Packagist](https://img.shields.io/badge/Pytorch-1.9.0-red.svg)
+![hardware](https://img.shields.io/badge/GPU-CPU-1abc9c.svg)
 ![Last Commit](https://img.shields.io/github/last-commit/tobran/GALIP)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-blue.svg)]((https://github.com/tobran/GALIP/graphs/commit-activity))
-![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)
+![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1a009c.svg)
 
 
 <p align="center">
@@ -18,8 +19,9 @@ Official Pytorch implementation for our paper [GALIP: Generative Adversarial CLI
 <p align="center">
 <b>Generated Images
 </p>
-
-![teaser](results.jpg)
+<p align="center">
+    <img src="results.jpg"/>
+</p>
 
 
 ## Requirements
