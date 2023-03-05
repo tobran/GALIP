@@ -7,6 +7,7 @@
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-blue.svg)]((https://github.com/tobran/GALIP/graphs/commit-activity))
 ![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1a009c.svg)
 
+# GALIP: Generative Adversarial CLIPs for Text-to-Image Synthesis (CVPR 2023)
 
 <p align="center">
     <img src="logo.jpeg" width="500px"/>
@@ -14,7 +15,7 @@
 
 # A high-quality, fast, and efficient text-to-image model
 
-[CVPR2023]Official Pytorch implementation for our paper [GALIP: Generative Adversarial CLIPs for Text-to-Image Synthesis](https://arxiv.org/abs/2301.12959) by [Ming Tao](https://scholar.google.com/citations?user=5GlOlNUAAAAJ), [Bing-Kun Bao](https://scholar.google.com/citations?user=lDppvmoAAAAJ&hl=en), [Hao Tang](https://scholar.google.com/citations?user=9zJkeEMAAAAJ&hl=en), [Changsheng Xu](https://scholar.google.com/citations?user=hI9NRDkAAAAJ). 
+Official Pytorch implementation for our paper [GALIP: Generative Adversarial CLIPs for Text-to-Image Synthesis](https://arxiv.org/abs/2301.12959) by [Ming Tao](https://scholar.google.com/citations?user=5GlOlNUAAAAJ), [Bing-Kun Bao](https://scholar.google.com/citations?user=lDppvmoAAAAJ&hl=en), [Hao Tang](https://scholar.google.com/citations?user=9zJkeEMAAAAJ&hl=en), [Changsheng Xu](https://scholar.google.com/citations?user=hI9NRDkAAAAJ). 
 
 <p align="center">
 <b>Generated Images
