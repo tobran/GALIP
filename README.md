@@ -100,14 +100,14 @@ The released model achieves better performance than the paper version.
 
 If you find GALIP useful in your research, please consider citing our paper:
 ```
-@misc{tao2023galip,
-      title={GALIP: Generative Adversarial CLIPs for Text-to-Image Synthesis}, 
-      author={Ming Tao and Bing-Kun Bao and Hao Tang and Changsheng Xu},
-      year={2023},
-      eprint={2301.12959},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+
+@article{tao2023galip,
+  title={GALIP: Generative Adversarial CLIPs for Text-to-Image Synthesis},
+  author={Tao, Ming and Bao, Bing-Kun and Tang, Hao and Xu, Changsheng},
+  journal={arXiv preprint arXiv:2301.12959},
+  year={2023}
 }
+
 ```
 The code is released for academic research use only. For commercial use, please contact Ming Tao (mingtao2000@126.com).
 
