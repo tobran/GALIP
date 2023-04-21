@@ -109,7 +109,7 @@ If you find GALIP useful in your research, please consider citing our paper:
 }
 
 ```
-The code is released for academic research use only. For commercial use, please contact Ming Tao (mingtao2000@126.com).
+The code is released for academic research use only. For commercial use, please contact Ming Tao (陶明) (mingtao2000@126.com).
 
 
 **Reference**
