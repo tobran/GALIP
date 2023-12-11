@@ -8,12 +8,12 @@ log_dir='new'
 multi_gpus=True
 mixed_precision=True
 
-nodes=8
-num_workers=8
+nodes=1
+num_workers=1
 master_port=11266
 stamp=gpu${nodes}MP_${mixed_precision}
 
-CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python -m torch.distributed.launch --nproc_per_node=$nodes --master_port=$master_port src/train.py \
+CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node=$nodes --master_port=$master_port src/train.py \
                     --stamp $stamp \
                     --cfg $cfg \
                     --mixed_precision $mixed_precision \
