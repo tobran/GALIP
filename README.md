@@ -101,10 +101,11 @@ The released model achieves better performance than the paper version.
 If you find GALIP useful in your research, please consider citing our paper:
 ```
 
-@article{tao2023galip,
+@inproceedings{tao2023galip,
   title={GALIP: Generative Adversarial CLIPs for Text-to-Image Synthesis},
   author={Tao, Ming and Bao, Bing-Kun and Tang, Hao and Xu, Changsheng},
-  journal={arXiv preprint arXiv:2301.12959},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={14214--14223},
   year={2023}
 }
 
